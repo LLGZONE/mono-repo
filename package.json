@@ -1,6 +1,6 @@
 {
   "name": "monorepo-template",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "workspaces": [
@@ -46,5 +46,8 @@
       "feat": "New Feature",
       "bug": "Bug Fix"
     }
+  },
+  "dependencies": {
+    "standard-version": "^7.0.1"
   }
 }
