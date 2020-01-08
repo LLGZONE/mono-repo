@@ -6,6 +6,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "url": "https://github.com/LLGZONE/mono-repo"
+  },
   "private": true,
   "scripts": {
     "build": "lerna run --stream --sort build",
