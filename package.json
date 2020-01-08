@@ -44,7 +44,7 @@
   "changelog": {
     "labels": {
       "feat": "New Feature",
-      "bug": "Bug Fix"
+      "fix": "Bug Fix"
     }
   },
   "dependencies": {
