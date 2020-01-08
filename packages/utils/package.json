@@ -1,0 +1,24 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "LLGZONE <985395976@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://bnpm.byted.org"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "clean": "rimraf build"
+  }
+}

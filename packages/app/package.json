@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "LLGZONE <985395976@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/app.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://bnpm.byted.org"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "utils": "^1.0.0"
+  }
+}
